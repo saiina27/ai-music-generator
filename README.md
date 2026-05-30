@@ -73,6 +73,9 @@ streamlit run app.py
 6. Generate the beat.
 7. Preview and download the generated music.
 
+LIVE DEMO-https://ai-music-generator-bxhunualm8fnjqbvckrbww.streamlit.app/
+
+
 ## Future Improvements
 
 * Advanced AI melody generation
