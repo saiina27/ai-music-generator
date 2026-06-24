@@ -1,93 +1,100 @@
-# AI Music Generator 🎵
+# 🎵 AI Music Beat Generator
 
-AI Music Generator is a Python-based application that generates music beats from lyrics provided by the user. The application analyzes the mood of the lyrics and creates a custom beat based on selected genre, instrument, BPM, and beat patterns.
+## Overview
+
+AI Music Beat Generator is a mood-based music generation application that analyzes user-provided lyrics and creates customized music beats. The system uses sentiment analysis to detect the emotional tone of lyrics and generates melody notes, MIDI beats, and audio previews based on the detected mood.
+
+---
 
 ## Features
 
-* Lyrics-based mood detection
-* AI-generated melody notes
-* Genre selection (Lofi, Rap, EDM, Pop)
-* Instrument selection
-* BPM (Tempo) control
-* Volume control
-* Beat Timeline Editor
+* 🎭 Automatic Mood Detection from Lyrics
+* 🧠 Sentiment Analysis using TextBlob
+* 🎼 AI-Generated Melody Notes
+* 🎵 MIDI Beat Generation
+* 🔊 WAV Audio Preview
+* 🎹 Instrument Selection
+* ⚡ BPM (Tempo) Control
+* 🔈 Volume Control
+* 🥁 Beat Timeline Editor
 
-  * Kick
-  * Snare
-  * HiHat
-* MIDI beat generation
-* Audio preview
-* Download generated beat
+  * Kick Pattern
+  * Snare Pattern
+  * HiHat Pattern
+* 📈 Melody Visualization
+* ⬇ MIDI File Download
+
+---
 
 ## Tech Stack
 
 * Python
 * Streamlit
 * TextBlob
-* MIDIUtil
 * NLTK
+* MIDIUtil
+* NumPy
+* SciPy
+* Matplotlib
+
+---
+
+## How It Works
+
+1. User enters song lyrics.
+2. The system performs mood detection using keyword analysis and TextBlob sentiment analysis.
+3. Melody notes are generated based on the detected mood.
+4. Users can customize:
+
+   * Genre
+   * Instrument
+   * BPM
+   * Volume
+   * Drum Patterns
+5. The application generates:
+
+   * MIDI Beat File
+   * WAV Audio Preview
+6. Users can listen to and download the generated beat.
+
+---
 
 ## Project Structure
 
 ai_music_generator/
-
+│
 ├── app.py
-
-├── beat_generator.py
-
 ├── mood_analyzer.py
+├── beat_generator.py
+├── requirements.txt
+└── README.md
 
-├── README.md
+---
 
-└── requirements.txt
+## Supported Moods
 
-## Installation
+* Happy
+* Sad
+* Energetic
+* Chill
 
-Clone the repository:
-
-git clone https://github.com/saiina27/ai-music-generator.git
-
-cd ai-music-generator
-
-Create a virtual environment:
-
-python3 -m venv venv
-
-source venv/bin/activate
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the application:
-
-streamlit run app.py
-
-## How It Works
-
-1. Enter song lyrics.
-2. Select mood manually or use Auto Detect.
-3. Choose genre and instrument.
-4. Adjust BPM and volume.
-5. Create beat patterns using Kick, Snare, and HiHat controls.
-6. Generate the beat.
-7. Preview and download the generated music.
-
-LIVE DEMO-https://ai-music-generator-bxhunualm8fnjqbvckrbww.streamlit.app/
-
+---
 
 ## Future Improvements
 
-* Advanced AI melody generation
-* MP3 export support
-* More instruments and genres
-* Beat visualization
-* Cloud deployment
+* Deep Learning-based Melody Generation
+* MP3 Export Support
+* More Genres and Instruments
+* Advanced Beat Sequencer
+* Cloud Deployment
 
-## Author
+---
+
+## Developer
 
 Saina Yadav
 
-B.Tech, Amity University Gurgaon
+B.Tech Computer Science Engineering
+Amity University Haryana
 
 Graduation Year: 2026
